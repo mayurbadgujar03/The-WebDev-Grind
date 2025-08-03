@@ -1,6 +1,7 @@
 # Prisma + PostgreSQL (Neon DB) Setup Guide
 
 This guide walks you through setting up Prisma with PostgreSQL (Neon or local), writing your first model, and using it with Express.
+![Prisma Workflow Diagram](./assets/prisma.png)
 
 ---
 
@@ -124,4 +125,5 @@ Add to your package.json:
   "migrate": "prisma migrate dev",
   "studio": "prisma studio"
 }
+
 ```
